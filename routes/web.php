@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('home');
 });
 =======
-Route::get('/', 'PageController@index');
+Route::get('/', 'PageController@index')->name('home');
 >>>>>>> origin/controller-gerardo
