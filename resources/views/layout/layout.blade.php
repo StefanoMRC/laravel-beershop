@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+    <main class="container">
+       @yield('cont') 
+    </main>
     
 
     <script src=" {{ asset('js/app.js') }} "></script>    
