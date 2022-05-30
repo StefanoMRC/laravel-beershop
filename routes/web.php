@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('home');
 });
+=======
+Route::get('/', 'PageController@index');
+>>>>>>> origin/controller-gerardo

@@ -86,6 +86,7 @@
 /************************************************************************/
 /******/ ({
 
+<<<<<<< HEAD
 /***/ "./node_modules/@popperjs/core/dist/umd/popper.min.js":
 /*!************************************************************!*\
   !*** ./node_modules/@popperjs/core/dist/umd/popper.min.js ***!
@@ -3297,6 +3298,8 @@ function withinMaxClamp(min, value, max) {
 
 /***/ }),
 
+=======
+>>>>>>> origin/controller-gerardo
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
@@ -5110,6 +5113,7 @@ module.exports = {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/bootstrap/js/dist/base-component.js":
 /*!**********************************************************!*\
   !*** ./node_modules/bootstrap/js/dist/base-component.js ***!
@@ -6648,6 +6652,8 @@ module.exports = {
 
 /***/ }),
 
+=======
+>>>>>>> origin/controller-gerardo
 /***/ "./node_modules/lodash/lodash.js":
 /*!***************************************!*\
   !*** ./node_modules/lodash/lodash.js ***!
@@ -24124,6 +24130,7 @@ module.exports = function(module) {
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
+<<<<<<< HEAD
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24138,6 +24145,13 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
+=======
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+>>>>>>> origin/controller-gerardo
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -24190,8 +24204,13 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 __webpack_require__(/*! C:\Users\PC GAMING\Desktop\boolean\laravel\laravel-beershop\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\Users\PC GAMING\Desktop\boolean\laravel\laravel-beershop\resources\sass\app.scss */"./resources/sass/app.scss");
+=======
+__webpack_require__(/*! C:\Users\sofes\Documents\Coding\classe_58\laravel-beershop\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\sofes\Documents\Coding\classe_58\laravel-beershop\resources\sass\app.scss */"./resources/sass/app.scss");
+>>>>>>> origin/controller-gerardo
 
 
 /***/ })
