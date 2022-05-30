@@ -7,8 +7,8 @@
     <link rel="stylesheet" href=" {{ asset('css/app.css') }} ">
     <title>Document</title>
 </head>
-<body>
-    <main class="container">
+<body class="container bg-dark">
+    <main >
        @yield('cont') 
     </main>
     
