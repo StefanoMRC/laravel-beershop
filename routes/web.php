@@ -12,11 +12,5 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-<<<<<<< HEAD
-Route::get('/', function () {
-    return view('home');
-});
-=======
 Route::get('/', 'PageController@index')->name('home');
->>>>>>> origin/controller-gerardo
+
