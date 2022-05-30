@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class BeerShop extends Model
+class Beer extends Model
 {
     //
 }

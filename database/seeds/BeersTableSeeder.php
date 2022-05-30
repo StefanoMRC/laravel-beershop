@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Faker\Generator as Faker;
-use App\Models\BeerShop;
+use App\Models\Beer;
 
 class BeersTableSeeder extends Seeder
 {
@@ -15,8 +15,8 @@ class BeersTableSeeder extends Seeder
     {
        for($i=0; $i<10; $i++){
 
-        $newBeer = new Beers();
-            $newBeer->immagine = $faker->imageUrl(360, 360, 'drink', true, 'beer', true, 'jpg');
+        $newBeer = new Beer();
+            $newBeer->immagine = $faker->imageUrl(360, 360, 'food', true, 'beer', true, 'jpg');
             $newBeer->nome = $faker->word();
             $newBeer->prezzo = $faker->randomFloat(2, 3, 70 );
             $newBeer->catchphrase = $faker->sentence();
