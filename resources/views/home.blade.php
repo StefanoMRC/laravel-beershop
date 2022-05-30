@@ -6,7 +6,9 @@
         <img src="{{$item->immagine}}" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title">{{$item->nome}}</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">Birra {{$item->tipologia}} di colore {{$item->colorazione}} prodotta in {{$item->zona_produzione}} fin dal {{$item->prodotta_dal}}</p>
+        <p class="card-text">{{$item->prezzo}}</p>
+
         <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
     </div>
